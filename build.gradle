@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'me.tatarka:gradle-retrolambda:3.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext{
+    supportLibraryVersion = '25.3.1'
+    butterknifeVersion = '8.6.0'
+    retrofitVersion = '2.3.0'
+    interceptorVersion = '3.4.0'
+    daggerVersion = '2.0'
+    glassfishVersion = '10.0-b28'
+    rxVersion = '2.1.0'
+    rxAndroidVersion = '2.0.1'
+    glideVersion='3.7.0'
+}

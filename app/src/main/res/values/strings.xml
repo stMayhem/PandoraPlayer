@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PandoraPlayer</string>
+    <string name="action_sign_in">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="search_hint">Search</string>
+    <string name="logout">Logout</string>
+    <string name="empty_list">Empty list</string>
+</resources>
